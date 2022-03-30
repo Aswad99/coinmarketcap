@@ -10,7 +10,7 @@
 require("pbapply");require("data.table");require("httr");require("rvest");require("dplyr")
 require("lubridate");require("jsonlite")
 PASS <- new.env()
-assign("apikey","insert_api_key_here",envir = PASS)
+assign("apikey","c609fb2f-42b9-40f9-8d84-86d7842fe7d1",envir = PASS)
 # HELPER FUNCTION - Converts timestamp to local timestamp
 # format TimeZone
 fixTZ = function(timeStamp){
